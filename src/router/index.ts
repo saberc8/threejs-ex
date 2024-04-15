@@ -31,21 +31,8 @@ const router = createRouter({
   routes,
 })
 
-router.beforeEach((to, _from, next) => {
-  const token = getToken()
-  if (to.path === '/login') {
-    if (token) {
-      next({ path: HomePath })
-    } else {
-      next()
-    }
-  } else {
-    if (token) {
-      next()
-    } else {
-      next({ path: LoginPath })
-    }
-  }
-})
+// router.beforeEach((to, _from, next) => {
+
+// })
 
 export default router
