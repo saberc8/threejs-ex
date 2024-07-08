@@ -5,11 +5,6 @@ import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
-import {
-  createStyleImportPlugin,
-  VxeTableResolve,
-} from 'vite-plugin-style-import'
-
 import { resolve } from 'path'
 /** 当前执行node命令时文件夹的地址（工作目录） */
 const root: string = process.cwd()
@@ -44,9 +39,6 @@ export default ({ command, mode }: ConfigEnv): UserConfigExport => {
             directives: true,
           }
         )],
-      }),
-      createStyleImportPlugin({
-        resolves: [VxeTableResolve()],
       }),
     ],
     base: VITE_BASE_URL,

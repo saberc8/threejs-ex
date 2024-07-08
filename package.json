@@ -10,30 +10,28 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
-    "axios": "^1.6.8",
-    "camera-controls": "^2.8.3",
+    "axios": "^1.7.2",
+    "camera-controls": "^2.8.5",
     "consola": "^3.2.3",
     "dat.gui": "^0.7.9",
-    "dayjs": "^1.11.10",
-    "element-plus": "^2.6.2",
+    "dayjs": "^1.11.11",
+    "element-plus": "^2.7.6",
     "gsap": "^3.12.5",
     "pinia": "^2.1.7",
-    "sass": "^1.72.0",
-    "three": "^0.162.0",
-    "unplugin-auto-import": "^0.17.5",
-    "unplugin-vue-components": "^0.26.0",
-    "vue": "^3.4.21",
-    "vue-router": "^4.3.0",
-    "vxe-table": "^4.5.21",
-    "xe-utils": "^3.5.22"
+    "sass": "^1.77.6",
+    "three": "^0.166.0",
+    "unplugin-auto-import": "^0.17.6",
+    "unplugin-vue-components": "^0.27.2",
+    "vue": "^3.4.31",
+    "vue-router": "^4.4.0"
   },
   "devDependencies": {
-    "@types/node": "^20.11.30",
-    "@types/three": "^0.162.0",
-    "@vitejs/plugin-vue": "^5.0.4",
-    "typescript": "^5.4.3",
-    "vite": "^5.2.6",
+    "@types/node": "^20.14.9",
+    "@types/three": "^0.166.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.2",
     "vite-plugin-style-import": "^2.0.0",
-    "vue-tsc": "^2.0.7"
+    "vue-tsc": "^2.0.24"
   }
 }

@@ -20,7 +20,7 @@ onMounted(() => {
     viewportDeg:45
   })
   hall.loadModel({
-    url: '../../../../public/art.glb',
+    url: '../../../../public/factory.glb',
     position: { x: 0, y: 0, z: 0 },
     scale: { x: 1, y: 1, z: 1 },
     onProgress: (p: any) => {

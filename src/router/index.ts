@@ -1,6 +1,5 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
 import { HomePath, LoginPath } from '@/config/constants'
-import Login from './modules/login'
 import { getToken } from '@/utils/auth'
 // 导入所有router
 const metaRouters: any = import.meta.glob('./modules/*.ts', {
@@ -17,7 +16,6 @@ export const routes: RouteRecordRaw[] = [
     path: '/',
     redirect: HomePath,
   },
-  Login,
   ...routerArray,
   {
     path: '/:pathMatch(.*)*',
