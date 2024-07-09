@@ -38,5 +38,13 @@ export default {
         title: '大屏展示',
       },
     },
+    {
+      path: '/demo/xyz',
+      name: 'xyz',
+      component: () => import('@/views/demo/xyz/index.vue'),
+      meta: {
+        title: 'xyz',
+      },
+    },
   ],
 }

@@ -116,6 +116,10 @@
       name: '可视化大屏',
       path: '/demo/dashboard',
     },
+    {
+      name: 'xyz点云',
+      path: '/demo/xyz',
+    },
   ]
 
   // 鼠标移入添加类名
